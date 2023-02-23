@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
+import Button from "../components/Button";
+import Box from "@mui/material/Box";
 
 function Home() {
   return (
-    <div>
-      <Link to="/Login">
-        <h3>Login</h3>
-      </Link>
-      ;
-    </div>
+    <Box>
+      <Button text="miau" image="./icons/logo.png" />
+      <Button text="guau" />
+    </Box>
   );
 }
 
